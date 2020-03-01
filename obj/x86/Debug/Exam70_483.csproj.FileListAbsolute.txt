@@ -1,0 +1,6 @@
+C:\Gabriel\Exam70-483-Programming-CSharp\bin\Debug\ConsoleApplication.exe.config
+C:\Gabriel\Exam70-483-Programming-CSharp\bin\Debug\ConsoleApplication.exe
+C:\Gabriel\Exam70-483-Programming-CSharp\bin\Debug\ConsoleApplication.pdb
+C:\Gabriel\Exam70-483-Programming-CSharp\obj\x86\Debug\Exam70_483.csprojAssemblyReference.cache
+C:\Gabriel\Exam70-483-Programming-CSharp\obj\x86\Debug\ConsoleApplication.exe
+C:\Gabriel\Exam70-483-Programming-CSharp\obj\x86\Debug\ConsoleApplication.pdb
