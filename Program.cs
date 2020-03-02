@@ -4,54 +4,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace certificacao_csharp_roteiro
+namespace Exam70_483
 {
     class Program
     {
         static IList<MenuItem> menuItems;
         static void Main(string[] args)
         {
-            IAulaItem itemSelecionado;
             menuItems = GetMenuItems();
-
             while (true)
             {
                 ImprimirMenuItems(menuItems);
                 var opcao = Console.ReadLine();
-
-                int.TryParse(opcao, out int valorOpcao);
-
-                if (valorOpcao == 0)
-                {
-                    break;
-                }
-
-                if (valorOpcao > menuItems.Count)
-                {
-                    break;
-                }
-
-                itemSelecionado = Executar(valorOpcao);
+                Executar(opcao);
                 Console.ReadKey();
             }
         }
 
-        private static IAulaItem Executar(int valorOpcao)
+        private static void Executar(string valorOpcao)
         {
-            IAulaItem itemSelecionado;
-            MenuItem menuItem = menuItems[valorOpcao - 1];
+            int opcao = Convert.ToInt32(valorOpcao);
+
+            IAulaItem aulaSelecionada;
+            MenuItem menuItem = menuItems[opcao - 1];
             Type tipoClasse = menuItem.TipoClasse;
-            itemSelecionado = (IAulaItem)Activator.CreateInstance(tipoClasse);
+            aulaSelecionada = (IAulaItem)Activator.CreateInstance(tipoClasse);
 
             Console.WriteLine();
             string titulo = $"EXECUTANDO: {menuItem.Titulo}";
             Console.WriteLine(titulo);
             Console.WriteLine(new string('=', titulo.Length));
 
-            itemSelecionado.Executar();
+            new Controlador().ExecutarAula(aulaSelecionada);
             Console.WriteLine();
             Console.WriteLine("Tecle algo para continuar...");
-            return itemSelecionado;
         }
 
         private static void ImprimirMenuItems(IList<MenuItem> menuItems)

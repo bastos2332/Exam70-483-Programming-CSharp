@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Exam70_483
 {
-    interface IAulaItem
+    class Dinamicos : IAulaItem
     {
-        void Executar();
+        public void Executar()
+        {
+
+        }
     }
 }

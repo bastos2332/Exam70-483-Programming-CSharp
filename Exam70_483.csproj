@@ -47,40 +47,24 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\1 - Tipos de Valor\antes\TiposDeValor.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\1 - Tipos de Valor\depois\TiposDeValor.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\2 - Tipos Inteiros\antes\Inteiros.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\2 - Tipos Inteiros\depois\Inteiros.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\3 - Tipos de Ponto Flutuante\antes\PontoFlutuante.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\3 - Tipos de Ponto Flutuante\depois\PontoFlutuante.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\4 - Decimal\antes\Decimal.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\4 - Decimal\depois\Decimal.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\5 - Booleanos\antes\Booleanos.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\5 - Booleanos\depois\Booleanos.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\6 - Estruturas Definidas pelo Usuário\antes\Estruturas.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\6 - Estruturas Definidas pelo Usuário\depois\Estruturas.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\7 - Enums\antes\Enumeracoes.cs" />
-    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\7 - Enums\depois\Enumeracoes.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\1 - Tipos de Referência\antes\TiposDeReferencia.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\1 - Tipos de Referência\depois\TiposDeReferencia.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\2 - Classes\antes\Classes.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\2 - Classes\depois\Classes.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\3 - Interfaces\antes\Interfaces.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\3 - Interfaces\depois\Interfaces.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\4 - Delegates\antes\Delegates.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\4 - Delegates\depois\Delegates.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\5 - Objetos\antes\Objetos.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\5 - Objetos\depois\Objetos.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\6 - Dynamic\antes\Dinamicos.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\6 - Dynamic\depois\Dinamicos.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\7 - Strings\antes\Strings.cs" />
-    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\7 - Strings\depois\Strings.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\1 - Tipos de Valor\TiposDeValor.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\2 - Tipos Inteiros\Inteiros.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\3 - Tipos de Ponto Flutuante\PontoFlutuante.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\4 - Decimal\Decimal.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\5 - Booleanos\Booleanos.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\6 - Estruturas Definidas pelo Usuário\Estruturas.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\7 - Enums\Enumeracoes.cs" />
+    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\1 - Tipos de Referência\TiposDeReferencia.cs" />
+    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\2 - Classes\Classes.cs" />
+    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\3 - Interfaces\Interfaces.cs" />
+    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\4 - Delegates\Delegates.cs" />
+    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\5 - Objetos\Objetos.cs" />
+    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\6 - Dynamic\Dinamicos.cs" />
+    <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\7 - Strings\Strings.cs" />
+    <Compile Include="Controlador.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\1 - Tipos de Valor\img1.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />

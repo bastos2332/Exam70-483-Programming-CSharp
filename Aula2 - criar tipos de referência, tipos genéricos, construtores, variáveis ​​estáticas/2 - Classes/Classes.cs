@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Exam70_483
 {
-    interface IAulaItem
+    class Classes : IAulaItem
     {
-        void Executar();
+        public void Executar()
+        {
+        }
     }
 }
