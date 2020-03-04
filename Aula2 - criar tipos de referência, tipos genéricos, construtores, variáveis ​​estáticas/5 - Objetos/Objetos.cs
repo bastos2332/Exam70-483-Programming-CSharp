@@ -10,13 +10,20 @@ namespace Exam70_483
     {
         public void Executar()
         {
-            int pontuacao = 10;
-            Console.WriteLine($"pontuacao: {pontuacao}");
+            Jogador.SomarObjeto();
         }
     }
 
     class Jogador
     {
-        public int Pontuacao { get; set; } = 10;
+        //public int Pontuacao { get; set; } = 10;
+        public static void SomarObjeto()
+        {
+            object objetco =-1;
+
+            dynamic dinamico = new int().CompareTo(objetco);
+            Console.WriteLine(dinamico);
+        }
+
     }
 }
